@@ -25,3 +25,21 @@ git add .
 git commit -m "Configuración incial de git"
 git push origin main
 ```
+
+## Referencia del repositorio local al repositorio remoto de (BITBUCKET)
+
+```
+git remote add origin-bitbucket https://aresmj23@bitbucket.org/aresmj23/m1-git-github-1.git
+git push origin-bitbucket main
+```
+
+- Para verificar ejecutar los siguientes comandos:
+```
+git remote
+git remote -v
+```
+
+- Para subir el proyecto a BITBUCKET
+```
+git push origin-bitbucket main
+```
